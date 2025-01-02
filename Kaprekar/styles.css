@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    margin: 0;
+    color: #00bcd4;
+    font-size: 24px;
+    text-align: center;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #b0bec5;
+    text-align: center;
+    font-size: 14px;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1f1f1f;
+    color: #00bcd4;
+    border: 1px solid #00bcd4;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #00bcd4;
+    color: #1f1f1f;
+    transform: scale(1.05);
+}
+#input-section {
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#input-section input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+}
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    border: 1px solid #333;
+    max-width: 600px;
+    width: 80%;
+    overflow-y: auto;
+    max-height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#output p {
+    color: #b0bec5;
+    margin: 5px 0;
+}
+.info {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #b0bec5;
+}
